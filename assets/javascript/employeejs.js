@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyB9TAZBeWi2OV2i-CpS09Wuo--UQ0d5ihA",
