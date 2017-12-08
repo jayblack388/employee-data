@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- css  -->
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  
+<title>Employee Time Sheet</title>
+</head>
+
+<body>
+
+<div class="jumbotron" id="top">
+  <div class="container" id="banner">
+    <h1 class="display-3">Employee Data Management</h1>
+    <p class="lead">Employee Billable Hours</p>
+  </div>
+</div>
+
+<div class="wrapper">
+<div class="container">
+  <div class="card">
+    <div class="card-header" id="cardTitle">
+      Current Employees
+    </div>
+    <div class="card-body">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Employee Name</th>
+            <th scope="col">Role</th>
+            <th scope="col">Start Date (min)</th>
+            <th scope="col">Months Worked</th>
+            <th scope="col">Monthly Rate $</th>
+            <th scope="col">Total Billed $</th>
+          </tr>
+        </thead>
+        <tbody id="dataWrapper">
+          <!-- <tr>
+            <th scope="row">1</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr> -->
+        </tbody>
+      </table>
+  </div>
+  </div>
+</div>
+
+
+<div class="container" id="addEmployee">
+  <div class="card">
+    <div class="card-header" id="cardTitle">
+      ADD EMPLOYEE
+    </div>
+    <div class="card-body">
+      <div class="form-group">
+        <label for="employeeName">Employee Name</label>
+        <input type="text" class="form-control" id="employeeName">
+      </div>
+      <div class="form-group">
+        <label for="employeeRole">Employee Role</label>
+        <input type="text" class="form-control" id="employeeRole">
+      </div>
+      <div class="form-group">
+        <label for="startDate">Start Date (DD/MM/YY)</label>
+        <input type="date" class="form-control" id="startDate">
+      </div>
+      <div class="form-group">
+        <label for="monthlyRate">Monthly Rate</label>
+        <input type="number" class="form-control" id="monthlyRate">
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+    
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+ 
+  <!-- jquery -->
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  
+  <!--link to java script -->
+   <script type="text/javascript" src="assets/javascript.js"></script> 
+
+  </body>
+</html>
