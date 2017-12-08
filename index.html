@@ -2,11 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- css  -->
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/employeestyles.css">
 
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+  <!-- Firebase Reference -->
+  <script src="https://www.gstatic.com/firebasejs/4.7.0/firebase.js"></script>
   
 <title>Employee Time Sheet</title>
 </head>
@@ -90,7 +95,7 @@
         <input type="number" class="form-control" id="monthlyRate">
       </div>
       
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button id="submitButton" type="submit" class="btn btn-primary">Submit</button>
     
     </div>
   </div>
@@ -112,7 +117,7 @@
   crossorigin="anonymous"></script>
   
   <!--link to java script -->
-   <script type="text/javascript" src="assets/javascript.js"></script> 
+   <script type="text/javascript" src="assets/javascript/employeejs.js"></script> 
 
   </body>
 </html>
