@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyB9TAZBeWi2OV2i-CpS09Wuo--UQ0d5ihA",
@@ -48,3 +49,20 @@ $("#submitButton").on("click", function (event) {
 // $("#employeeName")
 // $("#employeeRole")
 // $("#startDate")
+=======
+// Initialize Firebase
+// Make sure to match the configuration to the script version number in the HTML
+// (Ex. 3.0 != 3.7.0)
+var config = {
+    apiKey: "AIzaSyDGdubFGBJWrTFXCFG88AMlwmVyyG1zfP4",
+    authDomain: "classdemo-743ef.firebaseapp.com",
+    databaseURL: "https://classdemo-743ef.firebaseio.com",
+    projectId: "classdemo-743ef",
+    storageBucket: "classdemo-743ef.appspot.com",
+    messagingSenderId: "109836927180"
+  };
+  firebase.initializeApp(config);
+
+   console.log("hello");
+   console.log(Date());
+>>>>>>> Stashed changes
